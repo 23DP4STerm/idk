@@ -1,8 +1,9 @@
 /* styles.css */
+* {font-family: "Comic Sans MS";}
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
-header { background: #ba5f2e; color: white; padding: 20px; }
+header { background: #ba5f2e; color: white; padding: 110px; }
 nav a { color: white; margin: 0 15px; text-decoration: none; }
-.hero { padding: 110px; background: url('../images/hero-background.jpg') no-repeat center center/cover; color: white; }
+.hero { padding: 210px; background: url('../images/hero-background.jpg') no-repeat center center/cover; color: white; }
 .hero .outlined { text-shadow: 2px 2px 4px black; border: 2px solid rgb(75, 74, 74); padding: 10px; display: inline-block; background: rgb(117, 116, 116, 0.7);}
 .cat-fact { padding: 20px; background: lightgray; }
 .games { padding: 30px; background: lightyellow; }
@@ -14,3 +15,4 @@ button:hover{  padding: 15px 25px; margin-top: 10px; cursor: pointer;  backgroun
 .hidden { display: none; }
 #cat-image {cursor: pointer; width: 200px; height: auto;  transition: 2s;}
 #cat-image:hover {transform: scale(1.5) rotate(730deg); transition: 2s; padding: 100px 0 100px 0;}
+#logo {height: 140px; position: absolute; top: 50px; left: 50px;}
