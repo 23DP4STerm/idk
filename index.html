@@ -1,0 +1,50 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Corner</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cat Corner</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2 class="outlined">Welcome to Cat Corner</h2>
+    </section>
+    
+    <section class="cat-fact">
+        <h2>Random Cat Fact</h2>
+        <p id="fact">Click the image to fetch a fun cat fact.</p>
+        <img src="src/images/cat-placeholder.jpg" alt="Random Cat" id="cat-image" onclick="getCatFact()" >
+    </section>
+
+    <section class="games">
+        <h2>Cat Games</h2>
+        <p>Total Score: <span id="total-score">0</span></p>
+        <div class="game-links">
+            <button onclick="startMemoryGame()">Play Cat Memory Game</button>
+        </div>
+    </section>
+
+    <section id="memory-game" class="hidden">
+        <h2>Cat Memory Game</h2>
+        <div class="game-grid" id="game-board"></div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Cat Corner. All rights reserved.</p>
+    </footer>
+    
+    <script src="src/js/script.js"></script>
+</body>
+</html>
